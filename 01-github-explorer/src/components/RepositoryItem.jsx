@@ -4,7 +4,7 @@ export function Repositoryitem(props) {
       <strong>{props.repository?.name ?? "Repo Name"}</strong>
       <p>{props.repository?.description ?? "Descricao"}</p>
 
-      <a href="">{props.repository?.link ?? "link"}</a>
+      <a href="">{props.repository?.html_url ?? "link"}</a>
     </li>
   );
 }
